@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: yellow;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: dodgerblue;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.details{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.details h6{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.details p{
+    font-size:45px ;
+    font-weight: bold;
+    color: #555;
+    line-height: 50px;
+}
+
+.details p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.image{
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    /* padding-top: 30px; */
+    bottom: 80px;
+    right: 60px;
+    
+}
+
+.image img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s,left 1s;
+}
+
+.image:hover .hero1{
+    bottom: 40px;
+}
+
+.image:hover .hero2{
+    left:45%;
+}
+ 
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 40px;
+    padding: 30px;
+}
+/* start{
+    padding: 30px;
+} */
+
+.start a{
+    text-decoration: none;
+    color: black;
+}
+
+.start a:hover{
+    color: rgb(rgba(0, 128, 0, 0.556));
+    text-decoration: underline;
+    
+}
+
+
+
+
+.contain{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.first img{
+    width: 95%;
+    padding: 0px 8px; 
+    margin-bottom:  8px;
+ }
+
+
+#listen1{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border: none;
+    font-weight: bold;
+}
+#listen1:hover{
+    background-color: rgb(196, 186, 196);
+}
+
+   .first button{
+    background-color: rgba(172, 255, 47,0.81);
+    margin-left: 16px;
+    margin-bottom: 14px;
+    padding: 5px;
+    border: none;
+    color: #000;
+    font-weight: bold;
+ }
+
+ .first button:hover{
+    background-color: rgb(196, 186, 196);
+  }
+
+  .first a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+    margin-left:16px ;
+}
+
+.first a:hover {
+    text-decoration: underline;
+}
+
+.first p{
+    font-size: 14px;
+    color: rgba(185, 112, 112,);
+    padding:5px ;
+    margin-left: 15px;
+}
+
+
+.second {
+    margin-bottom: 25px;
+}
+
+.second img{
+    width: 92%;
+    margin-top: -120px;
+    margin-right: 10px;
+ }
+ .second button{
+     color:white;
+     padding: 4px;
+     border: none;
+     background-color: black;
+     font-weight: bold;
+     margin-top: 6px;
+     margin-bottom: 8px;
+ }
+ .second a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+    margin-bottom: 6px;
+ }
+ 
+ .second a:hover{
+    text-decoration: underline;
+ }
+
+ .second p{ 
+    margin-bottom: 10px;
+    color:rgb(51,42,42)
+    
+}
+
+
+
+/* 
+.third{
+        margin-top: 16px;
+        margin-bottom: 23px;
+        margin-left: 30px;
+        margin-right: 20px;
+    } */
+
+
+
+.third img{
+    width: 100%;
+    padding: 0px 8px; 
+    margin-bottom:  8px;
+ }
+
+#listen2{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border: none;
+    font-weight: bold;
+}
+
+#listen2:hover{
+    background-color: rgb(196, 186, 196);
+}
+
+
+.third button{
+    background-color: rgba(172, 255, 47,0.81);
+    margin-left: 16px;
+    margin-bottom: 14px;
+    padding: 5px;
+    border: none;
+    color: #000;
+    font-weight: bold;
+ }
+
+ .third button:hover{
+    background-color: rgb(196, 186, 196);
+  }
+
+  .third a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+    margin-left:12px ;
+}
+
+.third a:hover {
+    text-decoration: underline;
+}
+
+.third p{
+    font-size: 14px;
+    color: rgba(185, 112, 112,);
+    padding:5px ;
+    margin-left: 15px;
+}
+
+
+
+.fourth {
+    margin-bottom:10px;
+}
+
+
+
+.fourth img{
+    margin-right: px;
+ }
+ .fourth button{
+     color:white;
+     padding: 6px;
+     border: none;
+     background-color: black;
+     font-weight: bold;
+     margin-top: 6px;
+     margin-bottom: 8px;
+ }
+ .fourth a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 6px;
+    color: black;
+    margin: 6px;
+ }
+ 
+ .fourth a:hover{
+    text-decoration: underline;
+ }
+
+ .fourth p{
+    color:rgb(51,42,42)
+    
+}
+
+
+
+
+
+
+
+.developer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px
+
+    /* .start{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 40px;
+        padding: 30px;
+    } */
+}
+.developer a{
+   left: 30px;
+}
+
+.inventor h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.developer a{
+    text-decoration: none;
+    color: #000;
+}
+
+.developer a:hover{
+    color: rgb(196, 186, 196);
+    text-decoration: underline;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 20px 40px;
+}
+.mail{
+    display: flex;
+    background-color: burlywood;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding: 20px;
+}
+
+.input input{
+    background-color: burlywood;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 2px solid #000;
+    color: white;
+    padding-top: 150px;
+}
+
+.input button{
+    background-color: rgb(1,1,1);
+    padding: 4px 10px;
+    color: rgb(191,188,52);
+}
